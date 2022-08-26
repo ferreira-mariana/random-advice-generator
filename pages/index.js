@@ -29,6 +29,12 @@ export default function Home() {
           <div className={styles.card}>
             <h2>advice #{advice.id}</h2>
             <p>"{advice.text}"</p>
+            <div className={styles.divider}>
+              <div className={styles.line}></div>
+              <div className={styles.icon}></div>
+              <div className={styles.icon}></div>
+              <div className={styles.line}></div>
+            </div>
             <button className={styles.dice} onClick={getRandomAdvice}>
               <Image src="/icon-dice.svg" alt="dice" width={24} height={24} />
             </button>

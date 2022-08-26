@@ -48,6 +48,33 @@
   line-height: 1.5;
 }
 
+.card .divider {
+  display: grid;
+  grid-template-columns: auto 6px 6px auto;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.card .divider .icon {
+  background-color: var(--light-alpha);
+  border-radius: 50px;
+  height: 16px;
+  width: 6px;
+}
+
+.card .divider .line {
+  background-color: var(--light-alpha);
+  height: 1px;
+  width: 95%;
+  opacity: 20%;
+}
+
+.card .divider .line:last-child {
+  justify-self: end;
+}
+
 .card .dice {
   background-color: var(--green);
   border: none;
