@@ -31,6 +31,7 @@
   display: grid;
   justify-items: center;
   text-align: center;
+  position: relative;
 }
 
 .card h2 {
@@ -57,4 +58,7 @@
   display: grid;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
 }
