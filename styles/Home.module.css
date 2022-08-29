@@ -85,4 +85,10 @@
   position: absolute;
   bottom: 0;
   transform: translateY(50%);
+  transition: 0.3s;
+}
+
+.card .dice:hover {
+  box-shadow: 0px 0px 20px 1px var(--green);
+  transition: 0.3s;
 }
