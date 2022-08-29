@@ -22,12 +22,11 @@
 
 .card {
   background-color: var(--dark-grayish);
-  margin: 1rem;
-  padding: 1.5rem;
+  padding: 2.4rem 1.5rem;
   color: inherit;
   text-decoration: none;
-  border-radius: 10px;
-  max-width: 340px;
+  border-radius: 15px;
+  max-width: 520px;
   display: grid;
   justify-items: center;
   text-align: center;
@@ -44,6 +43,7 @@
 .card p {
   font-size: 1.75rem;
   line-height: 1.5;
+  margin: 1rem 0 2rem 0;
 }
 
 .card .divider {
