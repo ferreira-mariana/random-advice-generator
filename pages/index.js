@@ -22,9 +22,6 @@ export default function Home() {
         <title>Advices</title>
         <meta name="description" content="Random advices" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet" />
       </Head>
 
       <main className={styles.main}>
