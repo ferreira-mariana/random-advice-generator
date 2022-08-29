@@ -28,7 +28,7 @@ export default function Home() {
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2>advice #{advice.id}</h2>
-            <p>"{advice.text}"</p>
+            <p>&lsquo;&lsquo;{advice.text}&rsquo;&rsquo;</p>
             <div className={styles.divider}>
               <div className={styles.line}></div>
               <div className={styles.icon}></div>
