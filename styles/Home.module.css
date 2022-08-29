@@ -21,7 +21,7 @@
 }
 
 .card {
-  background-color: var(--dimmed);
+  background-color: var(--dark-grayish);
   margin: 1rem;
   padding: 1.5rem;
   color: inherit;
@@ -58,17 +58,16 @@
 }
 
 .card .divider .icon {
-  background-color: var(--light-alpha);
+  background-color: var(--light);
   border-radius: 50px;
   height: 16px;
   width: 6px;
 }
 
 .card .divider .line {
-  background-color: var(--light-alpha);
+  background-color: var(--grayish-blue);
   height: 1px;
   width: 95%;
-  opacity: 20%;
 }
 
 .card .divider .line:last-child {

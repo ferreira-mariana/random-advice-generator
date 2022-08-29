@@ -1,10 +1,9 @@
 :root {
-  --green: #4AD988;
-  --light-green: #50F296;
-  --light: #D8EDF2;
-  --light-alpha: #D8EDF2cc;
-  --dimmed: #2C3540;
-  --dark: #191F26;
+  --green: hsl(150, 100%, 66%);
+  --light: hsl(193, 38%, 86%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish: hsl(217, 19%, 24%);
+  --dark: hsl(218, 23%, 16%);
 }
 
 html,
